@@ -1,0 +1,15 @@
+# Verified with Python 3.10.21; explicit versions make the learning project reproducible.
+numpy==2.2.0
+pandas==2.3.0
+scikit-learn==1.7.0
+statsmodels==0.14.4
+scorecardpy==0.1.9.7
+matplotlib==3.10.0
+seaborn==0.13.2
+# scorecardpy imports pkg_resources, removed in newer setuptools releases.
+setuptools<81
+# Notebook viewing and execution
+notebook>=7,<8
+ipykernel>=6,<7
+nbformat>=5,<6
+nbclient>=0.10,<0.11
